@@ -132,6 +132,7 @@ class email_auth_verify(discord.ui.Modal, title='email_auth_verify'):
         code_check = cur.fetchone()[0]
         if self.code.value == code_check:
             role = interaction.guild.get_role(auth_role_id)
+            await interaction.response.send_message("Verified!", ephemeral=True, delete_after=5)
             await interaction.user.add_roles(role, reason="Passed mailer email verification & authorization.")
             dm_embed = discord.Embed(title='Verified!', description='Congrats! You have been verified and given access to the server. Feel free to check out the place!', colour=hex_green, timestamp=datetime.datetime.now(datetime.timezone.utc))
             dm_embed.set_thumbnail(url=bot_logo)
@@ -491,7 +492,7 @@ async def disable_auth_channel(interaction: discord.Interaction):
     else:
         global config
         auth_msg_id = config['AUTH']['auth_message_id']
-        if not auth_message_id:
+        if not auth_msg_id:
             await interaction.response.send_message("Authentication has not been set up yet.", ephemeral=True, delete_after=10)
         else:
             auth_chnl_id = config["AUTH"]["auth_channel_id"]
