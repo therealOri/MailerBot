@@ -1,0 +1,24 @@
+{
+    "BOT": {
+        "TOKEN": "Bot_Token_Here",
+        "bot_logo": "https://discord.com/assets/259560fbae59ef36798b.png",
+        "server_id": 1234567890
+    },
+    "AUTH": {
+        "auth_role": 1234567890,
+        "auth_message_id": null,
+        "auth_channel_id": null,
+        "auth_flag": false
+    },
+    "USERS": {
+        "whitelist": [
+            "sampletext@mail.com",
+            "sjhgfsjd@gmail.com",
+            "fakemail@mailhost.com"
+        ]
+    },
+    "MAIL": {
+        "sender_email": "mailtrap@yourdomain.com",
+        "api_key": "mailtrap_domain_api_token"
+    }
+}
