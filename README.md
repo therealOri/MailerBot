@@ -1,6 +1,7 @@
 # About
 This discord bot uses discord.py 2.0+, interactions, and app_commands. It will allow you to set a channel for it to use for its authentication. (it will send an embed there with buttons). I originally wanted 1 button and to have a modal pop up asking for an email and then another modal to pop up asking for the auth code sent to your email, but discord.py or discord won't let that happen so we'll have to deal with having 2 buttons instead. But ultimately, this bot will allow you to have more control over who is allowed into your discord servers.
 __ __
+> If you notice any spelling errors, mistakes, or any issues at all. Please feel free to make an [issue](https://github.com/therealOri/MailerBot/issues) <3
 
 <br>
 <br>
