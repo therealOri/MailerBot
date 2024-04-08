@@ -36,7 +36,7 @@ __ __
 <br>
 
 # Mailtrap Help
-If you need help with setting up things with mailtrap, how to register a domain, hosting, etc. Please head on over to the [discussions page]() and we can talk there!
+If you need help with setting up things with mailtrap, how to register a domain, hosting, etc. Please head on over to the [discussions page](https://github.com/therealOri/MailerBot/discussions/2) and we can talk there!
 __ __
 
 
