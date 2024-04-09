@@ -31,7 +31,7 @@ __ __
 - python mail.py
 ```
 __ __
-> This all assumes you have set up an account over at [mailtrap](https://mailtrap.io) and have set up "Sending Domains" and have all of the DNS stuff set up as well. (you WILL need your own website/domain)
+> This all assumes you have set up an account over at [mailtrap](https://mailtrap.io) and have set up "Sending Domains" and have all of the DNS stuff set up as well. (you WILL need your own website/domain..which you can do/register with cloudflare for like $10 a year)
 
 <br>
 <br>
