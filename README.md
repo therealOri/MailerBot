@@ -19,7 +19,7 @@ __ __
 
 # Installation
 ```
-- pip install https://github.com/therealOri/MailerBot.git
+- git clone https://github.com/therealOri/MailerBot.git
 - cd MailerBot
 - virtualenv mlrENV
 - source mlrENV/bin/activate
